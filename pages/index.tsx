@@ -150,7 +150,7 @@ export default function Home() {
                   Pre-compiled plugins for server admins
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
-                  Some times developer don't compile their plugins, or some of them just sells the pre-compiled binary but gives the full source code. <br></br>
+                  Some times developer &apos; compile their plugins, or some of them just sells the pre-compiled binary but gives the full source code. <br></br>
                   You can find even my plugins here (Some usefuls, Some not)
                 </p>
                 <div className="mt-8 flex gap-x-4 sm:justify-center">
