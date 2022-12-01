@@ -4,7 +4,17 @@ export const config = {
     runtime: 'experimental-edge',
 }
 
-export default async function handler(req: NextRequest, res: NextRequest) {
+export default async function handler(req: NextRequest) {
     const { pid } = req.query
-    res.end(`Post: ${pid}`)
+    return new Response(
+        JSON.stringify({
+            name: '${pid}',
+        }),
+        {
+            status: 200,
+            headers: {
+                'content-type': 'application/json',
+            },
+        }
+    )
 }
