@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { PaperClipIcon } from '@heroicons/react/20/solid'
-import Navbar from '../src/navbar'
+import Navbar from './src/navbar'
 import Link from 'next/link'
 
 const navigation = [
