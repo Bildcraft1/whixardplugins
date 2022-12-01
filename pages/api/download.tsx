@@ -1,6 +1,20 @@
+// Next.js Edge API Routes: https://nextjs.org/docs/api-routes/edge-api-routes
+
 import type { NextRequest } from 'next/server'
 
-export default function handler(req, res) {
+export const config = {
+  runtime: 'experimental-edge',
+}
+
+export default async function (req) {
     const { pid } = req.query
-    res.end(`Post: ${pid}`)
+  return new Response(
+    JSON.stringify({ name: 'John Doe  ${pid}' }),
+    {
+      status: 200,
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    }
+  )
 }
