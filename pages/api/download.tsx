@@ -9,3 +9,8 @@ export const config = {
 export default async function (req: NextRequest) {
     return new Response(JSON.stringify({ name: 'John Doe' }), { status: 200, headers: { 'Content-Type': 'application/json' } })
 }
+
+export default function handler(req, res) {
+    const { pid } = req.query
+    res.end(`Post: ${pid}`)
+}
