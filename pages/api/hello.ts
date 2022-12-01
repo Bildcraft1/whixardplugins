@@ -7,9 +7,8 @@ export const config = {
 }
 
 export default async function (req: NextRequest) {
-    const { pid } = "cock"
   return new Response(
-    JSON.stringify({ name: 'John Doe  ${pid}' }),
+    JSON.stringify({ name: 'Hello World' }),
     {
       status: 200,
       headers: {
