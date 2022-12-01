@@ -6,8 +6,8 @@ export const config = {
   runtime: 'experimental-edge',
 }
 
-export default async function (req) {
-    const { pid } = req.query
+export default async function (req: NextRequest) {
+    const { pid } = "cock"
   return new Response(
     JSON.stringify({ name: 'John Doe  ${pid}' }),
     {
