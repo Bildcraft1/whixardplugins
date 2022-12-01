@@ -1,13 +1,7 @@
 import { useState } from 'react'
 import { PaperClipIcon } from '@heroicons/react/20/solid'
-import Navbar from './navbar'
+import Navbar from '../styles/navbar'
 import Link from 'next/link'
-
-const navigation = [
-    { name: 'Plugins', href: '/plugins' },
-    { name: 'FAQ', href: '/faq' },
-    { name: 'Telegram', href: 'https://t.me/WhiXard' }
-]
 
 export default function Plugins() {
 

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Navbar from './navbar'
+import Navbar from '../styles/navbar'
 import Link from 'next/link'
 
 export default function Home() {
