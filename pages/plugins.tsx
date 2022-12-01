@@ -7,7 +7,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { PaperClipIcon } from '@heroicons/react/20/solid'
 
 const navigation = [
-    { name: 'Plugins', href: '#' },
+    { name: 'Plugins', href: '/plugins' },
     { name: 'FAQ', href: '#' },
     { name: 'Telegram', href: 'https://t.me/WhiXard' }
 ]
