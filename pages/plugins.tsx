@@ -8,7 +8,7 @@ import { PaperClipIcon } from '@heroicons/react/20/solid'
 
 const navigation = [
     { name: 'Plugins', href: '/plugins' },
-    { name: 'FAQ', href: '#' },
+    { name: 'FAQ', href: '/faq' },
     { name: 'Telegram', href: 'https://t.me/WhiXard' }
 ]
 
@@ -154,26 +154,6 @@ export default function Plugins() {
                                     Some times developer don&apos;t compile their plugins, or some of them just sells the pre-compiled binary but gives the full source code. <br></br>
                                     You can find even my plugins here (Some usefuls, Some not)
                                 </p>
-                                <div className="mt-8 flex gap-x-4 sm:justify-center">
-                                    <a
-                                        href="#"
-                                        className="inline-block rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
-                                    >
-                                        Download page
-                                        <span className="text-indigo-200" aria-hidden="true">
-                                            &rarr;
-                                        </span>
-                                    </a>
-                                    <a
-                                        href="#"
-                                        className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
-                                    >
-                                        FAQ
-                                        <span className="text-gray-400" aria-hidden="true">
-                                            &rarr;
-                                        </span>
-                                    </a>
-                                </div>
                                 <br></br>
                                 <br></br>
                                 <div className="overflow-hidden bg-white shadow sm:rounded-lg">
