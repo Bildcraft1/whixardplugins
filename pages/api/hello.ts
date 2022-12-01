@@ -7,13 +7,11 @@ export const config = {
 }
 
 export default async function (req: NextRequest) {
+  
   return new Response(
-    JSON.stringify({ name: 'Hello World' }),
+    'Hello World',
     {
-      status: 200,
-      headers: {
-        'Content-Type': 'application/json'
-      }
+      status: 200
     }
   )
 }
