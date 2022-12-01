@@ -1,20 +1,6 @@
 import type { NextRequest } from 'next/server'
 
-export const config = {
-    runtime: 'experimental-edge',
-}
-
-export default async function handler(req: NextRequest) {
+export default function handler(req, res) {
     const { pid } = req.query
-    return new Response(
-        JSON.stringify({
-            name: '${pid}',
-        }),
-        {
-            status: 200,
-            headers: {
-                'content-type': 'application/json',
-            },
-        }
-    )
+    res.end(`Post: ${pid}`)
 }
