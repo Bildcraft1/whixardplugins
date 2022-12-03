@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Navbar from '../components/navbar'
 import Link from 'next/link'
+import Head from 'next/head'
 
 export default function Home() {
 
@@ -8,6 +9,9 @@ export default function Home() {
 
   return (
     <div className="isolate bg-white">
+      <Head>
+        <title>WhiXard Plugins</title>
+      </Head>
       <Navbar></Navbar>
       <main>
         <div className="relative px-6 lg:px-8">

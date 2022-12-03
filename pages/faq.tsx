@@ -1,6 +1,4 @@
-import { Dialog } from '@headlessui/react'
 import { useState } from 'react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/20/solid'
 import Navbar from '../components/navbar'

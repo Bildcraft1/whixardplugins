@@ -45,12 +45,6 @@ export default function Navbar() {
         <div className="px-6 pt-6 lg:px-8">
           <div>
             <nav className="flex h-9 items-center justify-between" aria-label="Global">
-              <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-                <a href="#" className="-m-1.5 p-1.5">
-                  <span className="sr-only">WhiXard Plugins</span>
-                  <img className="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
-                </a>
-              </div>
               <div className="flex lg:hidden">
                 <button
                   type="button"
@@ -61,7 +55,7 @@ export default function Navbar() {
                   <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                 </button>
               </div>
-              <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end lg:gap-x-12">
+              <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
                 {navigation.map((item) => (
                   <a key={item.name} href={item.href} className="font-semibold text-gray-900 hover:text-gray-900">
                     {item.name}
@@ -75,11 +69,6 @@ export default function Navbar() {
                   <div className="flex">
                     <a href="#" className="-m-1.5 p-1.5">
                       <span className="sr-only">Your Company</span>
-                      <img
-                        className="h-8"
-                        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                        alt=""
-                      />
                     </a>
                   </div>
                   <div className="flex">
