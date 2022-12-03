@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { PaperClipIcon } from '@heroicons/react/20/solid'
-import Navbar from './_navbar'
+import Navbar from '../modules/navbar'
 import Link from 'next/link'
 
 export default function Plugins() {
